@@ -1,0 +1,35 @@
+.map {
+  position: absolute;
+  top: 100px; /* Height of the top-bar div */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.rotate-north {
+  top: 65px;
+  left: .5em;
+}
+.ol-touch .rotate-north {
+  top: 80px;
+}
+.top-bar {
+  width: 100%;
+  height: 100px;
+  background-color: #0d98ba; /* You can adjust the background color as needed */
+  color: #fff; /* You can adjust the text color as needed */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  font-size: 20px; /* You can adjust the font size as needed */
+  font-weight: bold; /* You can adjust the font weight as needed */
+}
+
+p {
+font-size: small;
+font-style: italic;
+display: block; /* Ensure the paragraph is displayed as a block-level element */
+margin-top: 5px; /* Add some spacing between the heading and paragraph */
+}
+
+

@@ -1,0 +1,90 @@
+// Example data for schools
+var schoolsData = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.68413328, -1.26880208
+        ] // School 1 coordinates
+      },
+      "properties": {
+        "name": "Parbursh Primary SchooL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.68003944, -1.33729112] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Kikurku Primary School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.71490731, -1.33072778  ] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Naisula Academy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.72369436, -1.36005208] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Iltalala Primary School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.74501315, -1.40152485] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Olchoro Onyokie Primary School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.77652508, -1.35931372] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Inchaishi Primary School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.79733571, -1.41142064] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Osero Lepere Primary School"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.75274563, -1.47032160] // School 2 coordinates
+      },
+      "properties": {
+        "name": "Lentukunyi Primary School"
+      }
+    }
+
+
+    // Add more schools as needed
+  ]
+};
